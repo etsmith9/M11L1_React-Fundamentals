@@ -1,12 +1,31 @@
-# React + Vite
+Module 11 Lesson 1: Assignments | React Fundamentals
+1. Building a Basic React Functional Component Portfolio
+Objective: The aim of this assignment is to practice the fundamentals of React by building a basic portfolio web page using functional components. This assignment focuses on understanding the structure and syntax of class components in React, without diving into props or states.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Problem Statement: Create a simple portfolio webpage with three main sections - a header, an about section, and a contact section - using functional components in React. This webpage will serve as a basic introduction to the structure and capabilities of React's functional component system.
 
-Currently, two official plugins are available:
+Task 1: Create a Header Section
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Write a functional component named Header that includes a background image and you or a fictional character name overlaying the background image. 
+Expected Outcome: A functional class component named Header rendering an image and a name as part of the portfolio.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Task 2: Create an About Section
+
+Write a functional component named About that includes a brief description of yourself or a fictional character. This component should contain a heading and a paragraph.
+Expected Outcome: A functional class component named About rendering a heading and a paragraph as part of the portfolio.
+
+
+
+Task 3: Create a Contact Section
+
+Develop a class component named Contact that displays simple contact information such as email or a LinkedIn profile.
+Expected Outcome: A Contact class component successfully renders contact information, demonstrating the ability to structure and render basic content in a React class component.
+
+
+
+Task 4: Import components into an App component
+
+Develop a functional component called  App that imports and displays your  Header,   About, and Contact components.
+Expected Outcome: An App functional component that successfully renders/displays all other components in an organized fashion demonstrating the ability to import and display/use components within other components.
